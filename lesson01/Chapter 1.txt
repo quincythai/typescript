@@ -1,0 +1,21 @@
+Chapter 1
+
+tsc main.ts to compile main.ts to main.js
+must do after every change
+tsc main.ts -w continues to watch for changes, but typically does not work for multiple files
+
+build folder: put index.html, css folder, javascript folder
+src: typescript
+
+ts --init (creates tsconfig.json where we have to specify files)
+now we can do tsc -w and it will watch all files specified
+can change setings in tsconfig like target for older JS, and directories
+
+if you delete ts file, have to delete js file too
+
+Ignore ts files in root by adding "include": ["src"] at bottom of tsconfig.json
+
+noEmitonError: true -- fail to compile if bad syntax
+tsc --noEmitOnError -w (to run it once)
+
+Add explicit type on after variable name
