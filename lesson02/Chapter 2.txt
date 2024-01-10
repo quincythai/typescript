@@ -2,3 +2,5 @@ Chapter Two: Basic Types
 
 TS - statically typed like Java means catch errors during compile whereas JS is dynamically typed (checks on run)
 
+TypeScript infers our type data (implicit)
+let variableName: type --> explicit
